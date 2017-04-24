@@ -62,6 +62,17 @@ public class Kalkulattor {
     public int potega (int a, int b) {
         return a^b;
     }
+    
+    /**
+     * 
+     * @param a
+     * @param b
+     * @param c
+     * @return 
+     */
+    public float delta (int a, int b, int c) {
+        return (b*b)-4*a*c;
+    }
 
     /**
      * @param args the command line arguments
