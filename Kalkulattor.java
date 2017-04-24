@@ -11,21 +11,53 @@ package kalkulattor;
  */
 public class Kalkulattor {
     
+    /**
+     * 
+     * @param a
+     * @param b
+     * @return 
+     */
+    
     public int suma (int a, int b) {
         return a+b;
     }
+    /**
+     * 
+     * @param a
+     * @param b
+     * @return 
+     */
     
     public int roznica (int a, int b) {
         return a-b;
     }
     
+    /**
+     * 
+     * @param a
+     * @param b
+     * @return 
+     */
+    
     public int iloczyn (int a, int b) {
         return a*b;
     }
+    /**
+     * 
+     * @param a
+     * @param b
+     * @return 
+     */
     
     public int iloraz (int a, int b) {
         return a/b;
     }
+    /**
+     * 
+     * @param a
+     * @param b
+     * @return 
+     */
     
     public int potega (int a, int b) {
         return a^b;
@@ -35,7 +67,7 @@ public class Kalkulattor {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
     }
     
 }
